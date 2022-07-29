@@ -11,6 +11,7 @@ public class NewMap implements  Map{
 
     @Override
     public boolean isEmpty() {
+
         return place.isEmpty();
     }
 
