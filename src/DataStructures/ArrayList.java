@@ -1,6 +1,5 @@
-package Data;
+package DataStructures;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class ArrayList implements List {
@@ -23,10 +22,10 @@ public class ArrayList implements List {
             }
         }
         if(count== capacity-1){
-            int oldCAp = capacity;
+            int old = capacity;
             capacity *=2;
             String[] freshArray = new String[capacity];
-            if (oldCAp >= 0) System.arraycopy(element, 0, freshArray, 0, oldCAp);
+            if (old >= 0) System.arraycopy(element, 0, freshArray, 0, old);
             element = freshArray;
         }
         element[size] = item;
@@ -38,6 +37,11 @@ public class ArrayList implements List {
             System.out.println(e);
         }
     }
+
+//    @Override
+//    public void add(int i, String value) {
+//
+//    }
 
     @Override
     public void remove(String item) {
