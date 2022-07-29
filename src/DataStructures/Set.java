@@ -1,4 +1,4 @@
-package Data;
+package DataStructures;
 
 public interface Set {
     boolean isEmpty();
@@ -10,5 +10,6 @@ public interface Set {
 
     boolean contains(String item);
 
+    String get(int key);
 }
 

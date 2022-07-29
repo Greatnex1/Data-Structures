@@ -1,4 +1,4 @@
-package Data;
+package DataStructures;
 
 public interface List {
 
@@ -14,6 +14,8 @@ public interface List {
 
     int capacity();
     void print();
+
+//    void add(int i, String value);
 }
 
 //    boolean isEmpty() {

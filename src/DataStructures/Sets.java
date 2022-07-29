@@ -1,4 +1,4 @@
-package Data;
+package DataStructures;
 import java.util.Objects;
 
 
@@ -15,7 +15,8 @@ private  ArrayList elements = new ArrayList();
 
     @Override
     public void add(String item) {
-        if(!contains(item)) elements.add(item);
+        if(!contains(item))
+            elements.add(item);
 
     }
 
@@ -39,6 +40,11 @@ private  ArrayList elements = new ArrayList();
 
         }
         return isInList;
+    }
+
+    @Override
+    public String get(int key) {
+        return null;
     }
 
 }
