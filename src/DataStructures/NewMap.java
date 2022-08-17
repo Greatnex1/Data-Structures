@@ -15,6 +15,7 @@ public class NewMap implements  Map{
         return place.isEmpty();
     }
 
+
     @Override
     public void keep(String key, int value) {
         if(!containsKey(key)){
@@ -23,7 +24,7 @@ public class NewMap implements  Map{
         else{
             for (int i = 0; i < place.size() ; i++) {
                 if(Objects.equals(place.get(i), key)){
-//                    item.add(i, value);
+                  item.add( key);
                     break;
                 }
 

@@ -5,14 +5,14 @@ public class Node {
     private Node view;
     private int index;
 
-    public Node() {}
+//    public Node() {}
     public Node(int index, Object contents){
         this.index = index;
         this.contents = contents;
-       view = new Node();
-
-        view.setContent(index);
-        view.setIndex(this.index + 1);
+//       view = new Node();
+//
+//        view.setContent(index);
+//        view.setIndex(this.index + 1);
 
     }
 

@@ -13,6 +13,11 @@ public class Queues implements Queue{
 
     }
 
+//    @Override
+//    public boolean isFull() {
+//        return queue.isFull();
+//    }
+
     @Override
     public int size() {
         return queue.size();
@@ -65,9 +70,9 @@ public class Queues implements Queue{
     public void clear() {
         for (int i = 0; i < queue.size() ; i++) {
             remove(get(i));
-
         }
-
     }
+
+
 
     }

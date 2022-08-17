@@ -2,6 +2,7 @@ package DataStructures;
 import java.util.EmptyStackException;
 import java.util.Objects;
 public class Stack {
+    //LIFO(LastInFirstOut)
     private  int arrange =  10;
 
     private ArrayList stackEntries = new ArrayList();
