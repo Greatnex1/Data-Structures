@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class LinkedListTest {
-LinkedList links;
+class LinkedListOneTest {
+LinkedListOne links;
     @BeforeEach
     void setUp() {
-        links = new LinkedList();
+        links = new LinkedListOne();
 
     }
     @Test
